@@ -1,0 +1,71 @@
+comment Draw a floppy disk 5.25 inch 100 by 100 pixels.
+comment draw the top line.
+set #xset 0
+set #yset 0
+set #xtwoset 100
+set #ytwoset #yset
+linesegment
+
+comment draw the bottom line.
+set #xset 0
+set #yset 100
+set #xtwoset #yset
+set #ytwoset #yset
+linesegment
+
+comment draw the left line.
+set #xset 0
+set #yset 0
+set #xtwoset 0
+set #ytwoset 100
+linesegment
+
+comment draw the right line.
+set #xset 100
+set #yset 0
+set #xtwoset #xset
+set #ytwoset 100
+linesegment
+
+comment draw an elliptical label.
+set #xshift -50
+set #yshift -20
+set #a 40
+set #b 3
+ellipse
+
+comment draw the center circle.
+set #xshift -50
+set #yshift -50
+set #radius 10
+circle
+
+comment draw a larger center circle
+set #xshift -50
+set #yshift -50
+set #radius 15
+circle
+
+comment draw an ellipse for the magnetic disk access.
+set #xshift -50
+set #yshift -85
+set #a 3
+set #b 5
+ellipse
+
+comment draw two parabolas next to the ellipse.
+comment draw first parabola on left side of ellipse.
+set #xshift -65
+set #yshift -95
+set #focaldistance 1
+set #range 5
+verticalparabola
+
+comment draw second parabola on the other side of the ellipse.
+set #xshift -35
+set #yshift -95
+set #focaldistance 1
+set #range 5
+verticalparabola
+
+exit

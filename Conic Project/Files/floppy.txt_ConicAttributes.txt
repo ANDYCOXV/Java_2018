@@ -1,0 +1,79 @@
+CONIC ATTRIBUTE FILE floppy.txt_ConicAttributes.txt
+This file lists the attributes of the conics computed from the path of the script file floppy.txt.
+
+POINTS
+======
+NONE
+
+LINE SEGMENTS
+=============
+
+LINE SEGMENT #1
+EQUATION: y=0*x+0
+DOMAIN: [0,100]
+RANGE: [0,0]
+
+LINE SEGMENT #2
+EQUATION: y=0*x+100
+DOMAIN: [0,100]
+RANGE: [100,100]
+
+LINE SEGMENT #3
+EQUATION: (UNDEFINED SLOPE) x=0
+DOMAIN: [0,0]
+RANGE: [0,100]
+
+LINE SEGMENT #4
+EQUATION: (UNDEFINED SLOPE) x=100
+DOMAIN: [100,100]
+RANGE: [0,100]
+
+VERTICAL PARABOLA
+=================
+
+VERTICAL PARABOLA #1
+EQUATION: (x--65)^2=4*1*(y--95)
+DOMAIN: [61,-61]
+RANGE: [-95,5]
+
+VERTICAL PARABOLA #2
+EQUATION: (x--35)^2=4*1*(y--95)
+DOMAIN: [31,-31]
+RANGE: [-95,5]
+
+HORIZONTAL PARABOLA
+===================NONE
+
+CIRCLES
+=======
+
+CIRCLE #1
+EQUATION: (x--50)^2+(y--50)^2=10^2
+DOMAIN: [40,60]
+RANGE: [40,60]
+
+CIRCLE #2
+EQUATION: (x--50)^2+(y--50)^2=15^2
+DOMAIN: [35,65]
+RANGE: [35,65]
+
+ELLIPSES
+========
+
+ELLIPSE #1
+EQUATION (HORIZONTAL ELLIPSE): (x--50)^2/40^2+(y--20)^2/3=1
+DOMAIN: [10,90]
+RANGE: [17,23]
+
+ELLIPSE #2
+EQUATION (VERTICAL ELLIPSE): (y--85)^2/5^2+(x--50)^2/3=1
+DOMAIN: [80,90]
+RANGE: [47,53]
+
+VERTICAL HYPERBOLA
+==================
+NONE
+
+HORIZONTAL HYPERBOLA
+====================
+NONE

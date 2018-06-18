@@ -1,0 +1,186 @@
+comment drawing a cassette tape.
+
+comment --- DRAW THE OUTSIDE CASSETTE ---
+
+comment draw the top of the cassette.
+set #xset 0
+set #yset 0
+set #xtwoset 300
+set #ytwoset 0
+linesegment
+
+comment draw the bottom of the cassette.
+set #xset 0
+set #yset 200
+set #xtwoset 300
+set #ytwoset 200
+linesegment
+
+comment draw the left side of the cassette.
+set #xset 0
+set #yset 0
+set #xtwoset 0
+set #ytwoset 200
+linesegment
+
+comment draw the right side of the cassette.
+set #xset 300
+set #yset 0
+set #xtwoset 300
+set #ytwoset 200
+linesegment
+
+comment --- DRAW FIRST SPINDLE ---
+
+comment draw spindle one to the left.
+set #xshift -90
+set #yshift -90
+set #radius 35
+circle
+
+comment draw lines on the spindle.
+comment line one.
+set #xset 65
+set #yset 65
+set #xtwoset 80
+set #ytwoset 80
+linesegment
+
+comment line two.
+set #xset 115
+set #yset 65
+set #xtwoset 100
+set #ytwoset 80
+linesegment
+
+comment line three.
+set #xset 65
+set #yset 115
+set #xtwoset 80
+set #ytwoset 100
+linesegment
+
+comment line four.
+set #xset 115
+set #yset 115
+set #xtwoset 100
+set #ytwoset 100
+linesegment
+
+comment --- DRAW SECOND SPINDLE ---
+
+comment draw spindle one to the right.
+set #xshift -210
+set #yshift -90
+set #radius 35
+circle
+
+comment draw lines on the spindle.
+comment line one.
+set #xset 185
+set #yset 65
+set #xtwoset 200
+set #ytwoset 80
+linesegment
+
+comment line two.
+set #xset 235
+set #yset 65
+set #xtwoset 225
+set #ytwoset 80
+linesegment
+
+comment line three.
+set #xset 185
+set #yset 115
+set #xtwoset 200
+set #ytwoset 100
+linesegment
+
+comment line four.
+set #xset 235
+set #yset 115
+set #xtwoset 220
+set #ytwoset 100
+linesegment
+
+comment --- LINES OVER SPINDLES ---
+
+comment line one.
+set #xset 0
+set #yset 55
+set #xtwoset 300
+set #ytwoset 55
+linesegment
+
+comment line two.
+set #xset 0
+set #yset 125
+set #xtwoset 300
+set #ytwoset 125
+linesegment
+
+comment --- DRAW THE HYPERBOLAS MAGNETIC TAPE ---
+comment tape layer one.
+set #xshift -150
+set #yshift -90
+set #a 15
+set #b 15
+set #domain 35
+horizontalhyperbola
+
+comment tape layer two.
+set #xshift -150
+set #yshift -90
+set #a 5
+set #b 5
+set #domain 35
+horizontalhyperbola
+
+comment --- DRAW THE TWO PARABOLAS ---
+
+comment parabola one.
+set #xshift -150
+set #yshift -140
+set #focaldistance 70
+set #range 60
+verticalparabola
+
+comment parabola two.
+set #xshift -150
+set #yshift -185
+set #focaldistance 70
+set #range 15
+verticalparabola
+
+comment --- DRAW THE SCREWS ELLIPSES ---
+
+comment ellipse one.
+set #xshift -120
+set #yshift -160
+set #a 12
+set #b 3
+ellipse
+
+comment ellipse two.
+set #xshift -70
+set #yshift -190
+set #a 12
+set #b 3
+ellipse
+
+comment ellipse three.
+set #xshift -190
+set #yshift -160
+set #a 12
+set #b 3
+ellipse
+
+comment ellipse four.
+set #xshift -240
+set #yshift -190
+set #a 12
+set #b 3
+ellipse
+
+exit
